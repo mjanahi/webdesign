@@ -1,56 +1,121 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!--This is a doc type - this is an html5-->
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+<head> <!--This tell the browser how to handle the page-->
+    <meta charset="UTF-8"> <!--what does this do ? how to encode a website, UTF-8 is unified and it includes all international sympols-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/styles.css">
-    <link rel="icon" href="mj.ico">
-    <title>Janahi's HomePage </title>
+    <meta name="description" content="This is my web page all about me ">
+    <link rel="stylesheet" href="css/styles.css">
+    <title> 💕 This is my page</title>
+
+<style>
+
+    body    {
+        background-color:#EAF6F6;
+    }
+
+    hr  {
+        border-style: dotted none none;
+        border-color: grey;
+        border-width: 5px;
+        size:4px;
+        height: 0px;
+        width: 5%;
+    }
+
+
+</style>
+
 </head>
 <body>
-    <div class="top-container">
-        <img src="images/cloud.png" class="top-cloud" alt="cloud-image">
-        <h1>I'm Moe..</h1>  
-        <h2 id="h2top">an Accountant.. 🦋</h2> <!-- MJ update (not sure if this is consistant)-->
-        <img src="images/cloud.png" class="bottom-cloud" alt="cloud-image">
-        <img src="images/mountain.png" alt="mountain-image">
+     <div>   
+        <br>
+            <table cellspacing="10px">
+                <tr>
+                    <td><img id="dave" src="css/Dave.jpg" alt="this is not working!"></td>
+                    <td>        <h1>This is my name 💕</h1>
+
+                        <p><em>Found and <strong>owner</strong> of this project<br>this is cool let us continue</em></p>
+                
+                        <p>I am a developer and 💕 coffees, can't <strong><a href="https://www.google.com/" target="blank">wait</a></strong> to get this done this is very cool</p>
+                    </td>
+                </tr>
+            </table>
+<!--        <h1>This is my name 💕</h1>
+
+        <p><em>Found and <strong>owner</strong> of this project<br>this is cool let us continue</em></p>
+
+        <p>I am a developer and 💕 coffees, can't <strong><a href="https://www.google.com/" target="blank">wait</a></strong> to get this done this is very cool</p>
+-->
+        <hr>
+
+        <h3>Work experiance</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Company</th>
+                    <th>Work experiance</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>2020</td>
+                    <td>UQ</td>
+                    <td>Researcher at the university of Queenskand</td>
+                </tr>
+                <tr>
+                    <td>2005 - 2008</td>
+                    <td>Santos</td>
+                    <td>Engineer and a researcher 7/8 roster. <br>and more in the open pit area</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <h3>Skills</h3>
+
+            <table cellspacing="2px">
+                <thead>
+                    <tr>
+                        <th> Topic </th>
+                        <th> Stars </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> IOS Development </td>
+                        <td> 🌟🌟🌟🌟 </td>
+                    </tr>
+
+                    <tr>
+                        <td> IOS Development </td>
+                        <td>🌟🌟🌟🌟</td>  
+                    </tr>
+                </tbody>
+            </table>
+
+
+        <h3>Educaiton</h3>
+
+        <ul>
+            <li>First option </li>
+            <li>First option </li>
+            <li>First option </li>
+        </ul>
+
+        <h3><a href="hobbies.html" >Hobbies</a></h3>
+        <ol>
+            <li>First option </li>
+            <li>First option </li>
+            <li>First option </li>
+        </ol>
+
+        <h3><a href="education.html" >Education</a></h3>
+
+        <h3><a href="contact_me.html">Contact me</a></h3>
+
     </div>
 
-    <div class="middle-container">
-        <div class="profile">
-          <img id="me" src="images/me.jpg" alt="my-picture">
-          <h2>Hello.</h2>
-          <p class="intro"> Learning to program and this it my first page. I'm awesome. let us test this paragraph if it works !</p>
-        </div>
-        <hr>
-        <div class="skills">
-          <h2>My Skills.</h2>
-          <div class="skill-row">
-            <img class="computer" src="CSS - My Site Images/computer.png" alt="">
-            <h3>Design and development</h3>
-            <p class="clearp">Just recently started to code and I love coffee ☕. I have gained a wealth of experience designing and developing in the last couple of weeks which is amazing ..</p>
-          </div>
-          <div class="skill-row">
-            <img class="chillies" src="CSS - My Site Images/chillies.png" alt="">
-            <h3>Hot challange</h3>
-            <p class="clearpr">In saying that I actually love eating chillies. This is not a challenge but just testing my skills. </p>
-          </div>
-        </div>
-        <hr>
-        <div class="contact-me">
-          <h2>Get In Touch</h2>
-          <h3>if you love chicken wings as much as I do.</h3>
-          <p class="contact-message">love it as much as I do? lets talk how awesome they are ! get in touch and lets talk business !.</p>
-          <a class="btn" href="mailto:madelslim@gmail.com">CONTACT ME</a>
-        </div>
-      </div>
-      
-      
-      <div class="bottom-container">
-        <a class="footer-link" href="https://www.linkedin.com" target="blank">LinkedIn</a>
-        <a class="footer-link" href="https://twitter.com/" target="blank">Twitter</a>
-        <a class="footer-link" href="https://www.facebook.com/" target="blank">Facebook</a>
-        <p class="copyright">© 2018 Janahi first go on web design</p>
-      </div>
+
 </body>
 </html>
